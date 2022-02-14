@@ -30,6 +30,10 @@ body{
   justify-content: space-evenly;
 }
 
+.Hero>div>h2{
+  color: #F3D259;
+}
+
 .Hero>*{
   padding: 16px;
   border-radius: 8px;
@@ -38,22 +42,71 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #7861D4;
   width: fit-content;
 }
 
 .Stack{
-  width: fit-content;
-  border: 2px solid #7861D4;
+  width: 50vw;
+  background-color: #2c3335;
+  border-radius: 16px;
   margin: 16vh auto auto auto;
   padding: 16px;
 }
 
+.stack--words{
+  border: 2px solid #F3D259;
+  width: fit-content;
+  padding: 8px;
+  margin: 32px 8px;
+}
+
+.Keyboard>input{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 20px;
+  margin: 24px auto;
+  background-color: #2c3335a8;
+  border: 1px solid #3A4345;
+  border-radius: 8px;
+}
+
+.Keyboard>input:focus{
+  outline: none;
+  border: 1px solid #F3D259;
+}
+
 .Keyboard{
-  width: 80vw;
-  height: 30vh;
+  width: max-content;
+  height: max-content;
   padding: 32px;
   margin: 64px auto auto auto;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.key{
+  font-size: 24px;
+  text-align: center;
+  border-radius: 4px;
+  height: auto;
+  width: 32px;
+  padding: 8px;
+  margin: 4px;
   background-color: #2C3335;
+}
+
+.wrong-key, #f{
+  background-color: #F3D259;
+  color: #2C3335;
+}
+
+.key-pressed, #o{
+  background-color: #68797D;
 }
 
