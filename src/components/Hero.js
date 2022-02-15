@@ -1,11 +1,16 @@
 import React from "react";
 
 export default function Hero(){
+
+    let level = 0;
+    let score = 69;
+    let multiplier = 1;
+
     return(
         <div className="Hero">
-            <div className="level"><h2>3</h2>level</div>
-            <div className="score"><h2>463</h2>score</div>
-            <div className="multiplier"><h2>4x</h2>multiplier</div>
+            <div className="level"><h2>{level}</h2>level</div>
+            <div className="score"><h2>{score}</h2>score</div>
+            <div className="multiplier"><h2>{`${multiplier}x`}</h2>multiplier</div>
         </div>
     )
 }

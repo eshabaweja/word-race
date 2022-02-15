@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Keyboard() {
 
-    let line1 = "qwertyuiop"
+    let line1 = "QWERTYUIOP"
     const row1 = line1.split("");
-    let line2 = "asdfghjkl"
+    let line2 = "ASDFGHJKL"
     const row2 = line2.split("");
-    let line3 = "zxcvbnm"
+    let line3 = "ZXCVBNM"
     const row3 = line3.split("");
 
     return (
@@ -18,7 +18,7 @@ export default function Keyboard() {
                 {
                 row1.map(item => {
                     return (
-                        <div className="key" id={item}>{item.toUpperCase()}</div>
+                        <div className="key" id={item}>{item}</div>
                     )
                 })
                 }
@@ -28,7 +28,7 @@ export default function Keyboard() {
             {
                 row2.map(item => {
                     return (
-                        <div className="key" id={item}>{item.toUpperCase()}</div>
+                        <div className="key" id={item}>{item}</div>
                     )
                 })
                 }
@@ -38,7 +38,7 @@ export default function Keyboard() {
             {
                 row3.map(item => {
                     return (
-                        <div className="key" id={item}>{item.toUpperCase()}</div>
+                        <div className="key" id={item}>{item}</div>
                     )
                 })
                 }
