@@ -45,17 +45,21 @@ body{
 }
 
 .Stack{
-  width: 50vw;
-  height: 10vw;
+  width: 32vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 8vw;
   background-color: #2c3335;
   border-radius: 16px;
   margin: 16vh auto auto auto;
   padding: 16px;
 }
 
-.stack--words{
+.stack--word{
   border: 2px solid #F3D259;
   width: fit-content;
+  height: fit-content;
   padding: 8px;
   margin: 8px;
 }
@@ -117,7 +121,7 @@ body{
   .Stack{
     margin: 8vh auto auto auto;
     width: 90vw;
-    height: 20vw;
+    height: max-content;
   }
 
   .stack--words{

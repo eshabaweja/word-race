@@ -12,7 +12,7 @@ export default function Keyboard() {
     return (
         <div className="Keyboard">
 
-<input type="text" autocomplete="off" autoFocus/>
+<input type="text" autoComplete="off" autoFocus/>
 
             <div className="row">
                 {
