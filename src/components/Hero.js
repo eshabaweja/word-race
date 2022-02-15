@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero(){
 
     let level = 0;
-    let score = 69;
+    let score = 0;
     let multiplier = 1;
 
     return(
