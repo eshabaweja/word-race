@@ -20,7 +20,6 @@ body{
   padding: 8px;
   text-align: center;
   background-color: #2C3335;;
-  font-size: 24px;
 }
 
 .Hero{
@@ -57,14 +56,13 @@ body{
   border: 2px solid #F3D259;
   width: fit-content;
   padding: 8px;
-  margin: 32px 8px;
+  margin: 16px 8px;
 }
 
 .Keyboard>input{
   width: 100%;
   box-sizing: border-box;
   padding: 8px;
-  font-size: 20px;
   margin: 24px auto;
   background-color: #2c3335a8;
   border: 1px solid #3A4345;
@@ -110,3 +108,18 @@ body{
   background-color: #68797D;
 }
 
+
+
+@media only screen and (max-width: 768px){
+  .Keyboard{
+    width: 80vw;
+    padding: 16px;
+  }
+
+  .key{
+    font-size: 16px;
+    width: auto;
+    margin: 2px;
+    background-color: #2C3335;
+  }
+}
