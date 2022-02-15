@@ -106,11 +106,6 @@ body{
   transition: all 0.1s;
 }
 
-.wrong-key, #f{
-  background-color: #F3D259;
-  color: #2C3335;
-}
-
 .key-pressed{
   background-color: #68797D;
 }
