@@ -45,15 +45,15 @@ body{
 }
 
 .Stack{
-  width: 32vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 8vw;
   background-color: #2c3335;
   border-radius: 16px;
-  margin: 16vh auto auto auto;
   padding: 16px;
+  margin: 8vh auto auto auto;
+  width: 80vw;
+  height: max-content;
 }
 
 .stack--word{
@@ -103,14 +103,15 @@ body{
   padding: 8px;
   margin: 4px;
   background-color: #2C3335;
+  transition: all 0.1s;
 }
 
-.wrong-key, #F{
+.wrong-key, #f{
   background-color: #F3D259;
   color: #2C3335;
 }
 
-.key-pressed, #O{
+.key-pressed{
   background-color: #68797D;
 }
 
@@ -120,7 +121,7 @@ body{
 
   .Stack{
     margin: 8vh auto auto auto;
-    width: 90vw;
+    width: 80vw;
     height: max-content;
   }
 

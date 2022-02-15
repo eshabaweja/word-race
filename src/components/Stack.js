@@ -11,7 +11,7 @@ export default function Stack(){
 
     return(
         <div className="Stack">
-
+            
             <div className="stack--word">{newWord()}</div>
             <div className="stack--word">{newWord()}</div>
             <div className="stack--word">{newWord()}</div>
@@ -22,7 +22,7 @@ export default function Stack(){
             <div className="stack--word">{newWord()}</div>
             <div className="stack--word">{newWord()}</div>
             <div className="stack--word">{newWord()}</div> 
-                    
+
         </div>
     )
 }
