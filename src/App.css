@@ -52,7 +52,8 @@ body{
   border-radius: 16px;
   padding: 16px;
   margin: 8vh auto auto auto;
-  width: 80vw;
+  min-width: 50vw;
+  max-width: fit-content;
   height: max-content;
 }
 

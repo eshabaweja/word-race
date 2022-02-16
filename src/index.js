@@ -10,21 +10,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-
-//event listener for pressed key feedback to user
-document.getElementById('key--input').addEventListener('keydown', function (e) {
-  const pressed = document.querySelector(`div[id='${e.key}']`)
-  if (!pressed) return; //if pressed key is not an alphabet
-
-  pressed.classList.add(`key-pressed`);
-})
-
-function removeTransition(e) {
-  this.classList.remove(`key-pressed`)
-}
-
-document.querySelectorAll(`.key`).forEach(key => key.addEventListener(`transitionend`, removeTransition))
-
 //to compare input and arr top
 document.getElementById('key--input').addEventListener('keydown', function (e) {
   if (e.key === "Enter" || e.key === " ") {
